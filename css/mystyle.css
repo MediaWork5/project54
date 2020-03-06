@@ -1,0 +1,826 @@
+
+* {
+    
+  
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+body
+{
+    font-family: 'DroidArabicKufiRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*starting constant*/
+
+
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.uper{
+    text-transform: uppercase;
+}
+.clear-fix{
+    clear: both;
+}
+.directoin
+{
+    direction: rtl;
+}
+/********** End constant ************/
+
+
+/***********  *************/
+/***********  *************/
+
+/*********** starting navbar  *************/
+nav
+{
+    background-color: transparent !important;
+    position: inherit ;
+}
+nav
+{
+    /*background-color: rgba(255,255,255,.95);*/
+    background: url('../img/bg-deco.png');
+    background-size: 1200px 173px;
+    background-repeat: no-repeat;
+    background-color: transparent !important;
+}
+.navbar
+{
+    background-color: transparent !important;
+    /*border-bottom: 1px solid #fff;*/
+    padding: 8px 0px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+.navbar ul
+{
+    /*margin-left: 120px;*/
+}
+/*.navbar .container .logos img
+{
+    width: 125px;
+    height: 80px;
+}*/
+nav .container .logos
+{
+    width: 193px;
+}
+nav .container .logos h3
+{
+    color: #35c1f3;
+    color: #fdd036 !important;
+    font-size: 30px;
+    display: -webkit-inline-box;
+}
+nav .container .logos img
+{
+    width: 175px;
+}
+nav .container .logo
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+nav .container .logo2
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+nav .container .nav-link
+{
+    padding: 15px;
+    color: #ddd !important;
+    font-size: 17px;
+    margin-left: 5px;
+    border-bottom: 3px solid transparent;
+    transition: all .25s ease-in-out;
+}
+nav .container .nav-link:hover
+{
+    border-bottom: 3px solid #fff;
+    color: #fff !important;
+}
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+*************/
+/*********** End navbar *************/
+/***********  *************/
+/***********  *************/
+/*********** starting intro *************/
+.intro
+{
+    background: url('../img/intro.png');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+}
+.intro .row > div
+{
+    padding-top: 150px;
+    position: relative;
+}
+.intro .row .vocab
+{
+    padding-top: 200px
+}
+.intro .row > div img
+{
+    display: block;
+    width: 298px;
+    position: absolute;
+    top: 84px;
+    left: 124px;
+    z-index: 9999;
+}
+.intro .row > div h3
+{
+    text-align: center;
+    color: #f8f5f9;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.intro .row > div h5
+{
+    color: #f8f5f9;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.intro .row > div a
+{
+    text-align: center;
+    text-decoration: none;
+    color: #9da2a6;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all .4s ease-in-out;
+}
+.intro .row > div a:hover
+{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+@media (max-width: 576px)
+{
+    .intro .row > div img
+    {
+        display: none;
+    }
+    .intro .row .vocab
+    {
+        padding-top: 75px;
+    }
+    .intro .row > div h3
+    {
+        font-size: 19px;
+    }
+    .intro .row > div h5
+    {
+        line-height: 2;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .intro .row > div img
+    {
+        display: none;
+    }
+    .intro .row .vocab
+    {
+        padding-top: 75px;
+    }   
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .intro .row > div img
+    {
+        top: 92px;
+    }
+    .intro .row > div
+    {
+        padding-top: 200px;
+        position: relative;
+        padding-bottom: 53px;
+        overflow: hidden;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .intro .row > div img 
+    {
+        top: 56px;
+        left: 199px;
+    }
+}
+/*********** End intro *************/
+/***********  *************/
+/***********  *************/
+/*********** starting services *************/
+.services
+{
+    
+}
+.services .container
+{
+    
+}
+.services .container h3
+{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.services .container h5
+{
+    text-align: center;
+    color: #652686;
+    font-size: 15px;
+    margin: auto;
+    width: 70%;
+    line-height: 1.8;
+    margin-bottom: 70px;
+}
+.services .container .row > div
+{
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 45px 20px 45px 20px;
+    margin-bottom: 50px;
+    box-shadow: 6px 6px 15px #ddd, -6px 6px 15px #ddd;
+    position: relative;
+}
+.services .container .row > div img
+{
+    
+}
+.services .container .row > div h4
+{
+    color: #652686;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.services .container .row > div p
+{
+    color: #c4c4c4;
+    color: #797474;
+    font-size: 14px;
+}
+.services .container .second-row
+{
+    width: 68%;
+    margin: auto;
+}
+.services .container .row > div .triangle
+{
+    position: absolute;
+    right: 18px;
+}
+.services .container .row > div .square
+{
+    position: absolute;
+    left: 25px;
+    bottom: 18px;
+}
+.services .container .row > div .square2
+{
+    position: absolute;
+    left: 20px;
+}
+@media (max-width: 576px)
+{
+    .services .container .second-row
+    {
+        width: 100%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .services .container .second-row
+    {
+        width: 100%;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .services .container .second-row
+    {
+        width: 100%;
+    }
+}
+/***********
+
+
+
+@media (min-width: 993px) and (max-width: 1199px)
+*************/
+/*********** End services *************/
+/***********  *************/
+/***********  *************/
+/*********** starting video *************/
+.video
+{
+    background: url('../img/Background-video.png');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+    background-size: cover;
+    height: 680px;
+    position: relative;
+}
+.video .overlay
+{
+    background: rgba(98,47,112,.85);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(98,47,112,.85), rgba(137,43,200,.7));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(98,47,112,.85), rgba(137,43,200,.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    padding-top: 280px;
+}
+.video .overlay img
+{
+    width: 120px;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+.video .overlay iframe
+{
+    position: absolute;
+    left: 29%;
+    top: 190px;
+    display: none;
+}
+@media (max-width: 576px)
+{
+    .video .overlay iframe
+    {
+        position: absolute;
+        left: 0;
+        top: 190px;
+        width: 100%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .video .overlay iframe
+    {
+        position: absolute;
+        left: 10%;
+        top: 190px;
+        width: 80%;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .video .overlay iframe
+    {
+        left: 19px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .video .overlay iframe
+    {
+        left: 25px;
+    }
+}
+/*********** End video *************/
+/***********  *************/
+/***********  *************/
+/*********** starting work *************/
+.work
+{
+    direction: ltr;
+}
+.work .container
+{
+    padding-bottom: 80px;
+}
+.work .container h3
+{
+    text-align: center;
+    color: #622284;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.work .container .mylist
+{
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    width: 57%;
+    border-bottom: 1.5px solid #cecdcd;
+}
+.work .container .mylist li
+{
+    list-style: none;
+    display: inline;
+    color: #622284;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-bottom: 17px;
+}
+.work .container .mylist .selected
+{
+    border-bottom: 2px solid #622284;
+    position: relative;
+}
+.work .container .mylist .selected:before
+{
+    content: " ";
+    border-top: 15px solid #622284;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    bottom: -31px;
+    left: 35%;
+    display: -webkit-box;
+}
+.work .container .part2,
+.work .container .part3,
+.work .container .part4,
+.work .container .part5
+{
+    display: none;
+}
+.work .container .autoplay1
+{
+    
+}
+.work .container .autoplay1 .up
+{
+    padding: 0px 20px 0px 20px;
+}
+.work .container .autoplay1 .up img
+{
+    width: 100%;
+}
+.work .container .autoplay1 .up h5
+{
+    color: #767576;
+    background-color: #d5d4d4;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.slick-prev:before, .slick-next:before
+{
+    color: #622284 !important;
+}
+.slick-dots li.slick-active button:before {
+    color: #622284 !important;
+}
+.slick-dots li button:before
+{
+    font-size: 15px;
+}
+@media (max-width: 576px)
+{
+    .work .container .mylist
+    {
+        width: 100%;
+    }
+    .work .container .mylist li
+    {
+        margin-left: 7px;
+        margin-right: 7px;
+        line-height: 4;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .work .container .mylist
+    {
+        width: 100%;
+    }
+    .work .container .mylist li
+    {
+        margin-left: 3px;
+        margin-right: 3px;
+        line-height: 4;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .work .container .mylist
+    {
+        width: 100%;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .work .container .mylist
+    {
+        width: 70%;
+    }
+}
+/*********** End work *************/
+/***********  *************/
+/***********  *************/
+/*********** starting about *************/
+.about
+{
+    text-align: center;
+}
+.about .container
+{
+    padding-top: 5px;
+    padding-bottom: 35px;
+    box-shadow: 10px 10px 30px #5e108b;
+    transition: all .4s ease-in-out;
+}
+.about .container:hover
+{
+    box-shadow: 10px 10px 30px #5e108b, -10px -10px 30px #5e108b;
+}
+.about .container h3
+{
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.about .container h4
+{
+    color: #8f4eba
+}
+.about .container p
+{
+    color: #8f4eba;
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+}
+/***********
+@media (max-width: 576px)
+@media (min-width: 577px) and (max-width: 768px)
+@media (min-width: 789px) and (max-width: 992px)
+@media (min-width: 993px) and (max-width: 1199px)
+*************/
+/*********** End about *************/
+/***********  *************/
+/***********  *************/
+/*********** starting information *************/
+.information
+{
+    background: url('../img/back-information.png');
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -0-background-size:cover;
+    background-size:cover;
+}
+.information .container
+{
+    padding-top: 180px;
+    padding-bottom: 80px;
+}
+.information .container .data
+{
+    text-align: right;
+    margin-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.information .container .data h4
+{
+    color: #767576;
+    text-align: right;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 45px;
+}
+.information .container .data p
+{
+    
+}
+.information .container .data i
+{
+    color: #5e108b;
+    margin-left: 10px;
+}
+.information .container .form
+{
+    margin-right: 100px;
+    border: 1.5px solid #c9c7c9;
+    border-radius: 10px;
+    padding: 40px 50px 30px 50px;
+    background-color: #fff;
+}
+.information .container .form input
+{
+    background-color: #f1f6f7;
+    border: none;
+    padding: 10px 10px 10px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #767576;
+}
+.information .container .form textarea
+{
+    background-color: #f1f6f7;
+    border: none;
+    padding: 10px 10px 10px 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 100%;
+    height: 250px;
+    color: #767576;
+}
+.information .container .form button
+{
+    text-align: center;
+    margin: auto;
+    display: -webkit-box;
+    margin-top: 20px;
+    border: none;
+    background-color: #5e108b;
+    color: #fff;
+    padding: 6px 70px;
+    border-radius: 5px;
+}
+.information .container .form input:focus, 
+.information .container .form textarea:focus, 
+.information .container .form button:focus
+{
+    outline: none;
+}
+@media (max-width: 576px)
+{
+    .information .container .data
+    {
+        margin-left: auto;
+    }
+    .information .container .form
+    {
+        margin-right: auto;
+    }
+    .information .container .form input
+    {
+        margin-bottom: 15px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .information .container .data h4
+    {
+        font-size: 13px;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px)
+{
+    .information .container .data
+    {
+        margin-left: auto;
+    }
+    .information .container .form
+    {
+        margin-right: auto;
+    }
+    .information .container .form input
+    {
+        margin-bottom: 15px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    .information .container .data h4
+    {
+        font-size: 13px;
+    }
+}
+@media (min-width: 789px) and (max-width: 992px)
+{
+    .information .container .data
+    {
+        margin-left: auto;
+    }
+    .information .container .form
+    {
+        margin-right: auto;
+    }
+    .information .container .data h4
+    {
+        font-size: 13px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px)
+{
+    .information .container .data
+    {
+        margin-left: auto;
+    }
+    .information .container .form
+    {
+        margin-right: auto;
+    }
+    .information .container .data h4
+    {
+        font-size: 14px;
+    }
+}
+/*********** End information *************/
+/***********  *************/
+/***********  *************/
+/*********** starting copyright *************/
+.copyright
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: rgba(64,16,88,.85);  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(64,16,88,.85), rgba(127,18,202,.7));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(64,16,88,.85), rgba(127,18,202,.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.copyright p
+{
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+/*********** End copyright *************/
+/***********  *************/
+/***********  *************/
+
+
+/***********media query  *************/
+@media (max-width: 576px)
+{
+    .container
+    {
+        width: 360px;
+    }
+}
+@media (min-width: 576px)
+{
+    .container
+    {
+        width: 540px;
+    }
+}
+@media (min-width: 768px)
+   
+{
+    .container
+    {
+        width: 720px;
+    }
+}
+@media (min-width: 992px)
+ 
+{
+    .container
+    {
+        width: 960px;
+    }
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        width: 1200px;
+    }
+}
